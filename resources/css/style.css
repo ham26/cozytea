@@ -33,6 +33,11 @@ a {
   color: seashell;
 }
 
+p {
+  font-size: 0.875em;
+  font-weight: normal;
+}
+
 header {
   background-color: black;
   display: flex;
@@ -127,14 +132,15 @@ header ul li {
   /*margin: 15px 20px;*/
 }
 
-footer p, .address p, .address h4 {
+footer {
+  height: 200px;
+}
+
+footer h5, .address p, .address h4 {
   padding: 20px;
 }
 
-footer p, .address p {
-  font-size: 0.875em;
-  font-weight: normal;
-}
+
 
 /* footer */
 
@@ -148,5 +154,5 @@ footer a {
 
 .copyright {
   text-align: left;
-  margin-left: 20px;
+  margin: 0 0 20px 20px;
 }
