@@ -20,12 +20,12 @@ html {
 }
 
 h2 {
-  font-size: 1.55em
+  font-size: 1.55em;
   font-weight: bold;
 }
 
 h4 {
-  font-size: 1.33em
+  font-size: 1.33em;
   font-weight: bold;
 }
 
@@ -66,7 +66,6 @@ header ul li {
   background-size: cover;
 /*moves item to the middle of div vertically */
   display: flex;
-  flex-direction: vertical;
   align-items: center;
 }
 
@@ -79,7 +78,7 @@ header ul li {
 }
 
 .strip h2, .strip h4 {
-  padding 10px 0;
+  padding: 10px 0;
 }
 
 /* Month */
