@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+
+}
+
+html {
+    background-color: black;
+}
+
+#container {
+  width: 1300px;
+  margin: 0 auto;
+  font-size: 1.375em; /*22px;*/
+  opacity: 0.9;
+
+}
+
+h2 {
+  font-size: 1.55em
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.33em
+  font-weight: bold;
+}
+
+a {
+  color: seashell;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  /*when you use fixed position, you have to assign width and z-index */
+  width: 1300px;
+  z-index: 1;
+}
+
+header img {
+  height: 50px;
+  margin: 10px 0 10px 10px;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 10px 0;
+  margin: 10px;
+}
+
+#main {
+  padding-top: 70px;
+}
+.mission {
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+  background: url(../images/img-mission-background.jpg) no-repeat center;
+  background-size: cover;
+/*moves item to the middle of div vertically */
+  display: flex;
+  flex-direction: vertical;
+  align-items: center;
+}
+
+.strip {
+  /*width is important to move item to the middle of div vertically */
+  width: 1200px;
+  height: 65px;
+  padding: 10px;
+  background-color: black;
+}
+
+.strip h2, .strip h4 {
+  padding 10px 0;
+}
+
+/* Month */
+
+.month {
+  width: 1000px;
+  margin: 60px auto ;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  margin: 20px 10px 10px ;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* locations */
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background: url(../images/img-locations-background.jpg) no-repeat center;
+  background-size: cover;
+  padding: 1px; /*this prevents the parent margin from collapsing with children margin */
+}
+
+
+
+.info-box {
+  margin-top: 60px;
+}
+
+.address {
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 20px;
+  width: 300px;
+  min-height: 260px;
+  background-color: black;
+  /*margin: 15px 20px;*/
+}
+
+footer p, .address p, .address h4 {
+  padding: 20px;
+}
+
+footer p, .address p {
+  font-size: 0.875em;
+  font-weight: normal;
+}
+
+/* footer */
+
+footer h2 {
+  margin-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
